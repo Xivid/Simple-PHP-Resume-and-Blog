@@ -1,0 +1,194 @@
+/* header begin */
+body{
+	background-color: #000000;
+	color: #FFFFFF;
+}
+a{
+	color: #69AB22;
+	text-decoration: none;
+}
+a:hover{
+	color: #66CD00;
+	text-decoration: underline;
+}
+header{
+	text-align: center;
+	font-size: 40px;
+	color: #CAFF70;
+	font-family: Consolas;
+	padding: 20px 20px;
+	background-color: #4F4F4F;
+}
+/* header end */
+/* nav bar begin */
+nav#nav{
+	padding-top: 9px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	background-color: #666666;
+}
+.button{
+	padding: 10px 10px;
+	margin-right: 10px;
+	font-family: "Microsoft Yahei";
+	background-color: #3D3D3D;
+}
+.button#current{
+	background-color: #0A0A0A;
+}
+nav#nav1{
+	padding-top: 9px;
+	padding-left: 40%;
+	padding-bottom: 10px;
+	background-color: #C4C4C4;
+}
+.button1{
+	padding: 10px 10px;
+	margin-right: 20px;
+	font-family: Courier;
+	background-color: #B3B3B3;
+}
+.button1#current{
+	background-color: #8B8B83;
+}
+a.nav1btn:link{
+	color:#AA3344;
+}
+a.nav1btn:visited{
+	color:#AA3344;
+}
+a.nav1btn:hover{
+	color:#7D26CD;
+}
+/* nav bar end */
+/* main begin */
+#main{
+	margin-top: 20px;
+	float: left;
+	width: 100%;
+}
+#sidebar{
+	float: left;
+	width: 20%;
+}
+.widget{
+	margin:20px;
+}
+.widname{
+	color: #CAFF70;
+	font-family: Georgia;
+	font-size: 1.2em;
+	font-variant: small-caps;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #CAAA70;
+	text-align: center;
+}
+.info{
+	color: #DDFEFE;
+	padding-left: 10px;
+	line-height: 1.2em;
+	float: none;
+	font-family: Courier;
+}
+#content{
+	float: left;
+	width: 80%;
+}
+.entry{
+	
+	padding: 20px 10px;
+	border-style: dotted;
+	border-width: 1px;
+}
+.etitle{
+	color: #CAFF70;
+	font-family: Kaiti;
+	font-size: 1.5em;
+	font-variant: small-caps;
+	padding-bottom: 5px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #CAAA70;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	text-indent: 10px;
+}
+.etitle a:link, .etitle a:visited{
+	text-decoration: none;
+	color: #69AB22;
+}
+.etitle a:hover{
+	text-decoration: underline;
+	color: #CAFF70;
+}
+.econtent{
+	font-family: verdana;
+	font-size: 0.9em;
+	margin-top: 20px;
+	margin-left: 20px;
+	text-indent: 2em;
+	color: #DDFEFE;
+	line-height: 1.5em;
+}
+#form{
+	float: left;
+	font-family: Courier;
+	/*background-color: #636363;*/
+	text-align: center;
+	margin-left: 5%;
+	padding: 10px;
+}
+.thead{
+	color: #66CD00;
+	margin-bottom: 20px;
+	border-bottom-style: solid;
+}
+.trow{
+	text-align: center;
+	margin-bottom: 10px;
+	color: #FAFAFA;
+	font-weight: bolder;
+}
+textarea{
+	height: 400px;
+	width: 700px;
+}
+.ttail{
+	text-align: center;
+	margin-top: 20px;
+}
+.submit{
+	margin-right: 10%;
+	margin-left: 10%;
+	color: #FF0000;
+	font-size: 1em;
+}
+/* main end */
+/* footer */
+/*
+#footer{
+	color: #69AB22;
+	font-family: Courier;
+	margin-top: 30px;
+	padding: 10px 10px;
+	background-color: #AA3344;
+	text-align: center;
+}*/
+#foot {width: 100%; float: left;}
+footer{
+	display: block;
+	text-align: center;
+	bottom:0px;
+	left:0px;
+	right: 0;
+	color: #69AB22;
+	font-family: Courier;
+	margin-top: 30px;
+	padding: 10px 10px;
+	background-color: #AA3344;
+}
+/* footer end */

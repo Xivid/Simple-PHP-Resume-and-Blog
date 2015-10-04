@@ -1,0 +1,158 @@
+/* header begin */
+body{
+	background-color: #000000;
+	color: #FFFFFF;
+}
+a{
+	color: #69AB22;
+	text-decoration: none;
+}
+a:hover{
+	color: #66CD00;
+	text-decoration: underline;
+}
+.welcome{
+	text-align: center;
+	font-size: 40px;
+	color: #CAFF70;
+	font-family: Consolas;
+	padding: 20px 20px;
+	background-color: #4F4F4F;
+}
+/* header end */
+/* nav bar begin */
+#nav{
+	padding-top: 9px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	background-color: #666666;
+}
+.button{
+	padding: 10px 10px;
+	margin-right: 10px;
+	font-family: "Microsoft Yahei";
+	background-color: #3D3D3D;
+}
+.button#current{
+	background-color: #0A0A0A;
+}
+/* nav bar end */
+/* main begin */
+.info{
+	color: #77EEEE;
+	margin-top: 30px;
+	text-align: center;
+	font-family: "Microsoft Yahei";
+}
+.form{
+	font-family: "Microsoft Yahei";
+	background-color: #636363;
+	text-align: center;
+	margin: 20px 20%;
+	padding: 10px;
+}
+.thead{
+	color: #66CD00;
+	margin-bottom: 20px;
+	border-bottom-style: solid;
+}
+.trow{
+	text-align: left;
+	margin-bottom: 10px;
+	color: #FAFAFA;
+	font-weight: bolder;
+}
+#filename{
+	
+	margin-left: 21%;
+}
+#directory{
+		
+	margin-left: 7%;
+}
+#password{
+	margin-left: 43%;
+}
+#file{
+	
+	margin-left: 48%;
+}
+.ttail{
+	text-align: center;
+	margin-top: 20px;
+}
+.submit{
+	margin-right: 10%;
+	margin-left: 10%;
+	color: #FF0000;
+	font-size: 1em;
+}
+pre {
+	font-family: Courier;
+	font-size: 17px;
+	background-color: #030303;
+}
+#desc{
+	margin-top: 20px;
+	border-style: dotted;
+	border-width: 1px;
+	padding: 10px;
+	color: #77EEEE;
+	font-size: 15px;
+	font-family: Microsoft Yahei;
+	width: 70%;
+	float: left;
+}
+#sidebar{
+	float: right;
+	width: 25%;
+}
+.widget {
+	margin: 20px;
+	border: solid;
+	border-radius: 5px;
+	border-color: cornflowerblue;
+	padding: 10px;
+}
+.widname{
+	color: #CAFF70;
+	font-family: Georgia;
+	font-size: 1.2em;
+	font-variant: small-caps;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #CAAA70;
+	text-align: center;
+}
+.widname a {
+	color: #CAFF70;
+}
+.info{
+	color: #DDFEFE;
+	padding-left: 10px;
+	line-height: 1.2em;
+	float: none;
+	font-family: Courier;
+}
+div.more {
+	text-align: right;
+	color: coral;
+	border-top: inherit;
+	border-color: #CAAA70;
+	border-width: 2px;
+	padding-top: 5px;
+	margin-top: 5px;
+}
+/* main end */
+/* footer */
+#footer{
+	width: 100%; float: left;
+	color: #69AB22;
+	font-family: Courier;
+	margin-top: 30px;
+	padding: 10px 10px;
+	background-color: #AA3344;
+	text-align: center;
+}
