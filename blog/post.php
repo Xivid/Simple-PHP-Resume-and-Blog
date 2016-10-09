@@ -1,4 +1,4 @@
-<?
+<?php 
 if($_POST){
 	require_once("connect.php");
 	if($_POST["password"] != "ibmibm") die("Invalid Password");
@@ -8,7 +8,7 @@ if($_POST){
 	header("Location: ".$url); 
 	exit;
 }?>
-<?
+<?php 
 define("current", "Post");
 $template_dir = "templates/default/";
 require_once($template_dir."header.php") 
@@ -23,6 +23,6 @@ require_once($template_dir."header.php")
 	</form>
 </div>
 </div>
-<? require_once($template_dir."footer.php") ?>
+<?php  require_once($template_dir."footer.php") ?>
 </body>
 </html>

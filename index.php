@@ -1,7 +1,7 @@
-<?
+<?php 
 define("current", "Index");
 ?>
-<? require_once("header.php") ?>
+<?php  require_once("header.php") ?>
 <div id="desc">
 <pre>
 <a name="line1"> 1</a> <font color="#444444">//This is my personal description.</font>
@@ -93,6 +93,6 @@ syntax highlighted by <a href="http://www.palfrader.org/code2html">Code2HTML</a>
 	</div>
 </div>
 </div>
-<? require_once("footer.php") ?>
+<?php  require_once("footer.php") ?>
 </body>
 </html>

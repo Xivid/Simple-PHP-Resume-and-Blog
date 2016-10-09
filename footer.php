@@ -1,4 +1,4 @@
-<?
+<?php 
 memcache_init();
 function getcount(){
 	$file = "saemc://src/visit.count";
@@ -13,4 +13,4 @@ function getcount(){
 	return $count.$suffix;
 }
 ?>
-<div id="footer">You make the <?php echo getcount(); ?> visit. <br>2014 &copy; <a href="http://vivid.name" target="_blank">Xivid</a></div>
+<div id="footer">You make the <?php  echo getcount(); ?> visit. <br>2014 &copy; <a href="http://vivid.name" target="_blank">Xivid</a></div>
